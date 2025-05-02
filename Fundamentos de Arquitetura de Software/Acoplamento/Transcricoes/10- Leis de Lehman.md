@@ -1,0 +1,29 @@
+No vídeo anterior falamos sobre a lei de Postel. Ou seja, somos conservadores e liberais basicamente. A Leman tem oito itens e foi criada, e segundo relatos, não apenas por Leman, mas também por Belade, em 1974. Inclusive, estou deixando abaixo o artigo onde essa lei está explicada com todos os detalhes.
+
+Dentre os oito itens dessa lei, quero destacar quatro que acredito fazerem muito sentido na hora de desenvolver seu software e garantir sua longevidade. São pontos que, embora pareçam óbvios, ajudam a repensar o software e a ressignificar diversas decisões de arquitetura.
+
+A primeira é a lei da mudança contínua. Um sistema de software deve se adaptar às mudanças em seu ambiente. Caso contrário, sua eficácia diminuirá com o tempo. Isso é evidente. Ou seja, se seu software está há muito tempo sem atualizações, provavelmente sua empresa já está utilizando outro sistema ou aquele software deixou de atender às necessidades do negócio. Software é algo que evolui constantemente. Se não está mudando, há algo errado. Quanto tempo faz desde o último commit em determinado projeto? Se já passou muito tempo, vale a pena revisar, pois provavelmente o software está sendo pouco atualizado, o que pode ser um indício de obsolescência.
+
+A segunda é a lei do crescimento da complexidade. Ela afirma que, à medida que um sistema evolui, sua complexidade tende a aumentar, a menos que haja um esforço deliberado para reduzi-la. Pense que seu software passa por alterações diariamente. É natural perceber — e provavelmente você já vivenciou isso — que quanto mais mudanças são feitas, mais difícil o sistema se torna de entender e manter. A proposta desta lei é clara: a complexidade não diminui por conta própria; é necessário enfrentá-la de forma intencional. Isso significa que o foco não deve estar apenas em adicionar novas funcionalidades. O sistema também precisa passar por melhorias contínuas para que futuras iterações não se tornem cada vez mais difíceis. Após colocar uma nova funcionalidade em produção, é essencial revisar o código e buscar formas de simplificá-lo. Dessa forma, ao implementar a próxima funcionalidade, o nível de complexidade permanece controlado.
+
+Se o seu software está se tornando mais complexo com o tempo, é sinal de que você não está adotando uma estratégia ativa de redução da complexidade. Nesse sentido, a responsabilidade é sua. Enfrente a complexidade com melhorias, mesmo que essas não resultem em novas funcionalidades. São melhorias que preparam o terreno, como no ditado: é preciso plantar para colher. Quando você realmente planta sua terra fica pronta para o próximo plantio. Se você apenas colhe, em algum momento o solo deixará de produzir, pois não estará preparado.
+
+A terceira é a lei da conservação da familiaridade. Essa lei afirma que o conteúdo global de um sistema deve ser mantido em um nível que seja familiar aos desenvolvedores que atuam naquele projeto. Se você está envolvido em um projeto e, ao trabalhar nele, se depara com estruturas ou padrões que não fazem sentido, ou que parecem completamente novos e desconectados do restante do sistema, isso é um sinal de alerta. Muitas vezes, um desenvolvedor cria um módulo de um jeito, e outro desenvolvedor cria um módulo completamente diferente, dificultando a manutenção e a evolução do sistema. Módulo. E, quando você percebe, parece que uma parte não se comunica com a outra. Você está desenvolvendo um módulo, outra pessoa está desenvolvendo outro, e, no final, os módulos não se encaixam. Ou seja, ao olhar para o software, ele parece estranho até para você. Isso significa que essa lei está sendo quebrada, e isso acaba prejudicando a evolução do sistema. Se o software começa a parecer confuso para os membros do time, é um indicativo de que a lei da conservação da familiaridade está sendo violada.
+
+Já falamos da lei da mudança contínua, da lei do crescimento da complexidade, da lei da conservação da familiaridade.
+
+E agora vamos falar de mais uma: a lei da conservação do esforço. Essa lei diz que o esforço total para implementar e manter um sistema de software aumentará ao longo do tempo, mesmo que a quantidade de funcionalidades adicionais permaneça constante. Esse ponto é bastante delicado.
+
+No início, você tinha apenas uma funcionalidade. Para adicionar a segunda, já foi necessário um esforço. Da segunda para a terceira, também houve um custo. Da terceira para a quarta, mais um. E à medida que o sistema cresce, mesmo sem tantas novas funcionalidades, você percebe que manter e implementar novas partes se torna mais difícil. Isso ocorre porque o esforço não está sendo conservado. O esforço passa a ser desproporcional conforme o sistema evolui. Quem já trabalhou com sistemas legados certamente entende esse cenário. Às vezes, mudar um simples campo exige um trabalho enorme.
+
+Por quê? Porque o sistema é antigo, está fortemente acoplado, pouco familiar e difícil de manter. Aos poucos, até tarefas simples se tornam complexas.
+
+Por que tudo isso é importante? Porque esses princípios mudam a forma como você enxerga o seu software.
+
+O arquiteto de software não se preocupa apenas com a escrita do código. Ele se preocupa com métricas, com a manutenção, com a capacidade do sistema de escalar, com a facilidade de onboarding de novos membros no time.
+
+Ao refletir sobre essas leis, você começa a ter insights: “Essa parte do sistema está confusa. Como torná-la mais compreensível?”, ou então: “Está ficando cada vez mais difícil modificar essa área. Como podemos torná-la mais eficiente para facilitar futuras implementações?”
+
+Esses pontos são extremamente importantes. E um dos papéis fundamentais do arquiteto de software, do tech lead, do desenvolvedor sênior ou pleno, é esse: ter cuidado, ter zelo pelo que está sendo construído. Ter profissionalismo. E, para isso, é essencial compreender essas diretrizes que estamos discutindo aqui.
+
+É isso.

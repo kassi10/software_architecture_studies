@@ -1,0 +1,6 @@
+- cqrs
+- aws well architecture
+- Multi tenant
+- lock distribuido
+- invalidacao da cache
+- SAD (DOCUMENTACAO)
