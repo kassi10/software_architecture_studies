@@ -32,6 +32,15 @@ Martin Fowler:
 https://martinfowler.com/
 Site de Martin Fowler com diversos artigos e livros sobre arquitetura, design e padrões de software.
 
+Artigo sobre Event-Driven Architecture
+https://martinfowler.com/articles/201701-event-driven.html
+
+Schema Evolution and Compatibility for Schema Registry on Confluent Cloud
+https://docs.confluent.io/cloud/current/sr/fundamentals/schema-evolution.html
+
+Schema Registry on Confluent Cloud
+https://docs.confluent.io/cloud/current/sr/index.html
+
 Patterns of enterprise application architecture (obrigatorio)
 12 fators app
 https://12factor.net/pt_br/
