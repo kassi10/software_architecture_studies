@@ -76,3 +76,5 @@ Link 2: https://www.youtube.com/watch?v=fkIvmfqX-t0
 
 #Marketing pessoal
 https://www.amazon.com.br/Personal-branding-Construindo-marca-pessoal-ebook/dp/B00KVM2NQG/ref=sr_1_1?adgrpid=185876809857&dib=eyJ2IjoiMSJ9.MJLLw5080jovxD5FIowR27-COmljIHXxtYG_0HJNdn-DNnsdwJwalsJ91FT4mFqn1X5oFvOqI2dgeAautrrlxCw-HA_V_bHNBuZAvHxG_3Q.V2PNDHebajwfKI7U1uHEFL8dvuoHqEBw832zpEjcacM&dib_tag=se&gad_source=1&hvadid=782301905251&hvdev=c&hvlocphy=9102390&hvnetw=g&hvqmt=e&hvrand=621200258674925562&hvtargid=kwd-1659460947251&hydadcr=5733_13215216&keywords=branding+arthur+bender&mcid=e7dee03f53ac3c84b23d128b6910baed&qid=1767021184&sr=8-1
+
+- O poder dos quietos - Livro
